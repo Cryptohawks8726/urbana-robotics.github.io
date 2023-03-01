@@ -7,10 +7,25 @@ footer {
     border-top:3px white solid;
 }
 
+#bottom {
+    position: relative;
+    top: -50px;
+    right: -93px;
+}
+
+#names {
+    font-size:1vw;
+    text-align: right;
+    margin-right: -310px;
+    display: inline-block;
+}
+
 #copyright {
     font-size:1vw;
     margin:0;
     padding:0.8vw;
+    display: inline-block;
+    margin-right: 330px;
 }
 
 #frc-logo {
