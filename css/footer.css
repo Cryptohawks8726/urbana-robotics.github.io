@@ -9,28 +9,31 @@ footer {
 
 #bottom {
     position: relative;
-    top: -50px;
-    right: -93px;
+    max-height: 100vw;
 }
 
 #names {
-    font-size:1vw;
+    position: relative;
+    left: 37vw;
+    font-size: .7vw;
     text-align: right;
-    margin-right: -310px;
     display: inline-block;
 }
 
 #copyright {
+    position: relative;
+    left: 5vw;
     font-size:1vw;
-    margin:0;
+    margin: 0;
     padding:0.8vw;
     display: inline-block;
-    margin-right: 330px;
+    
 }
 
 #frc-logo {
     width:2.5vw;
     padding-bottom:0.8vw;
+
 }
 
 #address {
