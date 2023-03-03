@@ -44,7 +44,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 .description-div:nth-child(odd) * {

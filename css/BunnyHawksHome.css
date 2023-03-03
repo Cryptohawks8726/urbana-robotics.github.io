@@ -1,88 +1,95 @@
-#pbc-group {
+#robot-group {
     display:flex;
     flex-wrap:wrap;
     gap:20vw 0px;
 }
 
-.pbc {
+.robot {
     display:flex;
     margin-left:10vw;
     margin-right:10vw;
     gap:0vw 2.5vw;
 }
 
-.pbc-image {
+.robot-image {
+    position: relative;
     flex-grow:0;
     height:38vw;
-    width:38vw;
+    width:65vw;
     object-fit:cover;
     border-radius: 10px;
     margin-bottom: 100px;
+    left: 20vw;
 }
 
-.pbc-link {
+.robot-link {
     text-decoration:none;
 }
 
-.pbc-link:hover {
+.robot-link:hover {
     background-color:var(--lightgray);
 }
 
-.pbc-label {
+.robot-label {
+    position: relative;
     flex:1;
-    
+    text-align: left;
+    top: auto;
+    right: 70vw;
+    top: 6vw;
 }
 
-.pbc-heading {
+.robot-heading {
     display:flex;
     gap:2vw;
-    
 }
 
-.pbc-name {
+.robot-name {
+    position: relative;
     font-family: Bebas Neue;
     font-size:2.5vw;
     color:black;
     margin-bottom:0px;
+    right: auto;
+    top: 1vw;
 }
 
-.pbc-year {
+.robot-year {
     font-family: Bebas Neue;
     font-size:1.5vw;
     color:black;
     margin-top:0px;
 }
 
-.pbc-description {
+.robot-description {
     font-family: Dosis;
-    font-size:1.2vw;
+    font-size:1.5vw;
     color:black;
 }
 
-.pbc-performance h1{
+.robot-performance h1{
     font-family: Dosis;
     font-size:1.8vw;
     color:black;
 }
 
-.pbc-performance ul {
+.robot-performance ul {
     padding:0px;
     margin:0px;
-    
 }
 
-.pbc-performance-item {
+.robot-performance-item {
     margin-bottom:1vw;
     list-style:none;
     font-size:1.2vw;
     color:black;
 }
 
-.pbc-performance-events {
+.robot-performance-events {
     color:black;
 }
 
-.pbc-event td{
+.robot-event td{
     padding:0.8vw 2vw 0.8vw 0vw;
     font-size: 1.0vw;
 }
@@ -138,4 +145,13 @@
 .banner .award-event {
     font-size: 85%;
     line-height: 130%;
+}
+
+.bhbutton {
+    font-family: Bebas Neue;
+    font-size: 1.5vw;
+    position: relative;
+    top: -6vw;
+    height: 50px;
+    width: 100px;
 }

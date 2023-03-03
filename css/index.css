@@ -12,6 +12,7 @@
     padding-top:4vw;
     margin-left:10vw;
     margin-right:10vw;
+
 }
 
 #urbana-logo {
@@ -35,13 +36,13 @@
 #introduction-title {
     font-family: Bebas Neue;
     font-size:3vmax;
-    color:var(--white);
+    color:var(--black);
 }
 
 #introduction-text {
     font-family: Dosis;
     font-size:max(15px,1.5vmax);
-    color:var(--white);
+    color:var(--black);
     margin:0px;
 }
 
