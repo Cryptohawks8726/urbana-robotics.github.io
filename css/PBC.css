@@ -20,14 +20,6 @@
     margin-bottom: 100px;
 }
 
-.pbc-link {
-    text-decoration:none;
-}
-
-.pbc-link:hover {
-    background-color:var(--lightgray);
-}
-
 .pbc-label {
     flex:1;
     
@@ -44,13 +36,6 @@
     font-size:2.5vw;
     color:black;
     margin-bottom:0px;
-}
-
-.pbc-year {
-    font-family: Bebas Neue;
-    font-size:1.5vw;
-    color:black;
-    margin-top:0px;
 }
 
 .pbc-description {
@@ -90,52 +75,4 @@
 .reverse {
     flex-direction:row-reverse;
     text-align:right;
-}
-
-.banner {
-    background: var(--bannerblue);
-    color: black;
-    display: inline-block;
-    height: 170px;
-    width: 124px;
-    line-height: 1.2;
-    margin: 0 0 40px;
-    padding: 8px;
-    position: relative;
-    text-align: center;
-    vertical-align: top;
-    white-space: normal;
-}
-
-.banner:after {
-    content: '';
-    position: absolute;
-    display: block;
-    border: 70px solid var(--bannerblue);
-    border-top-width: 5px;
-    border-bottom: 20px transparent solid;
-    top: 100%;
-    left: 0;
-}
-
-.banner img {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 75px;
-    max-height: 45px;
-}
-
-.banner .award-name, .banner .award-name-long {
-    display: table;
-    width: 100%;
-    height: 35px;
-    font-weight: bolder;
-    margin: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-.banner .award-event {
-    font-size: 85%;
-    line-height: 130%;
 }
