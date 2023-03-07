@@ -4,12 +4,18 @@
     justify-content:space-evenly;
     flex-wrap:wrap;
     gap: 6vw 10vw;
+    
+}
+
+.spnsr-text {
+    color:black;
 }
 
 .spnsr {
     width: 20vw;
     min-width: 250px;
     transition: 0.2s;
+
 } 
 
 .spnsr-link {
