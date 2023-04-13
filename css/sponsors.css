@@ -1,14 +1,13 @@
 .spnsr-group {
-    display:flex;
+    display: inline-block;
+    position: relative;
     align-items:center;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-    gap: 6vw 10vw;
+    
     
 }
 
 .spnsr-text {
-    color:black;
+    color:rgb(0, 0, 0);
 }
 
 .spnsr {
