@@ -60,7 +60,12 @@
     margin:2vw;
 }
 
+#form-div {
+    justify-content: center;
+    text-align: center;
+}
+
 #google-form {
-    width:35vw;
+    width:50vw;
     height:80vw;
 }

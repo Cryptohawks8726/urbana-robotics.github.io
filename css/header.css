@@ -76,6 +76,7 @@ header {
     align-items: center;
     justify-content: center;
     font-size:1.5vw;
+    text-align: center;
     text-decoration:none; 
     color:var(--white);
     padding:15px;
