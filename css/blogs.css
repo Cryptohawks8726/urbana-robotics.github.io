@@ -1,0 +1,78 @@
+#blog-group {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:5vw;
+}
+
+.blog-link {
+    text-decoration:none;
+    margin-left:10vw;
+    margin-right:10vw;
+}
+
+.blog {
+    display:flex;
+    justify-content:center;
+    gap:0vw 2.5vw;
+    background-color:var(--darkgray);
+    width:auto;
+    padding:2vw;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 50vh;
+}
+
+
+.blog:hover {
+    background-color:var(--lightgray);
+    transform: scale(1.1);
+}
+
+.blog-title {
+    font-family: Bebas Neue;
+    font-size:3vw;
+    color:var(--white);
+    margin:0px;
+    padding:0px;
+}
+
+.blog-date {
+    font-family: Dosis;
+    font-size:1vw;
+    color:var(--white);
+    margin:0px;
+    padding:0px;
+}
+
+.blog-description-text {
+    font-size:1.2vw;
+    color:var(--white);
+    margin-top:2vw;
+}
+
+
+.blog-cover-image {
+    flex:2;
+    max-width:30vw;
+    max-height:25vw;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.blog-description{
+    height:42vh;
+}
+
+/* .newsletter-author{
+    height:30vh;
+} */
+
+.blog-author-description {
+    font-size:1.5vw;
+    color:var(--white);
+}
+
+sup {
+    font-size:0.6vw;
+}
