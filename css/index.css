@@ -1,5 +1,6 @@
-#welcome {
+.welcome {
     font-family: Bebas Neue;
+    align-content: baseline;
     font-size:min(100px,10vmax);
     color:var(--white);
     margin:0px;
@@ -12,7 +13,17 @@
     padding-top:4vw;
     margin-left:10vw;
     margin-right:10vw;
-
+    margin-top: -14vh;
+    background-image: url("../assets/global/Banner.jpeg");
+    width:100%;
+    position:relative;
+    left: -10vw;
+    bottom: -14vh;
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 
 #urbana-logo {
@@ -31,6 +42,7 @@
     min-width: 350px;
     flex-shrink: 1;
     flex-grow: 1;
+    color: white;
 }
 
 #introduction-title {
