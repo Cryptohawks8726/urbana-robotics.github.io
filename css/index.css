@@ -1,7 +1,19 @@
-.welcome {
+#welcome {
     font-family: Bebas Neue;
     align-content: baseline;
+    line-break: auto;
+    line-height: 80px;
     font-size:min(100px,10vmax);
+    max-height: 19vh;
+    color:var(--white);
+    margin:0px;
+}
+
+#welcome2 {
+    font-family: Bebas Neue;
+    align-content: baseline;
+    line-break: auto;
+    font-size:min(60px,10vmax);
     color:var(--white);
     margin:0px;
 }
@@ -26,6 +38,8 @@
     background-size: cover; 
 }
 
+
+
 #urbana-logo {
     max-height: 20vw;
     min-width: 200px;
@@ -42,12 +56,16 @@
     min-width: 350px;
     flex-shrink: 1;
     flex-grow: 1;
+    white-space:break-spaces;
+    overflow: hidden;
+    text-overflow:clip;
+    text-align:left;
     color: white;
 }
 
 #introduction-title {
     font-family: Bebas Neue;
-    font-size:3vmax;
+    font-size:5vmax;
     color:var(--black);
 }
 
@@ -55,9 +73,72 @@
     font-family: Dosis;
     font-size:max(15px,1.5vmax);
     color:var(--black);
-    margin:0px;
+    margin-right:90px;
 }
 
 #introduction-description:nth-child(2){
     transition-delay: 200ms;
+}
+
+#quote {
+    display:flex;
+    flex-flow: row wrap;
+    
+    justify-content: center;
+    padding-top:4vw;
+    margin-left:10vw;
+    margin-right:10vw;
+    background-image: url("../assets/global/groupPhoto.jpeg");
+    width:100%;
+    position:relative;
+    left: -10vw;
+    bottom: -14vh;
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+#quote-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction:column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 54vw;
+    height: 40vh;
+    top: -4vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#quote-text {
+    margin-bottom: 35px;
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: Dosis;
+    font-size: 18px;
+    color: var(--white);
+}
+
+#author {
+    position: flex;
+    flex-direction:column;
+}
+
+#quote-author {
+    position: relative;
+    bottom: -2.5vh;
+    font-family: Dosis;
+    font-size: 20px;
+    color: var(--white);
+}
+
+#quote-founder {
+    font-family: Dosis;
+    font-size: 16px;
+    color: rgb(219, 219, 219);
 }
