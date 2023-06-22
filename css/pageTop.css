@@ -1,0 +1,8 @@
+#top{
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/global/TopImage.jpeg");
+    width:100%;
+    height:100vh;
+    margin-bottom: 10vh;
+}

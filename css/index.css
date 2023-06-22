@@ -83,7 +83,6 @@
 #quote {
     display:flex;
     flex-flow: row wrap;
-    
     justify-content: center;
     padding-top:4vw;
     margin-left:10vw;
