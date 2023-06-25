@@ -93,10 +93,12 @@ header {
 #dropdown {
   position: relative;
   display: inline-block;
+  
 }
 
 #dropdown-content {
   display: none;
+  
   position: absolute;
   background-color: var(--navy);
   width: min-content;

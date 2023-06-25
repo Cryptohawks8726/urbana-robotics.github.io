@@ -10,93 +10,7 @@
     padding-bottom:4vmax;
 }
 
-#sub-teams {
-    display: flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    color: white;
-}
 
-.description {
-    text-align: center;
-    opacity: 0;
-    font-family: Dosis;
-    font-size: 100%;
-    transition: 0.3s;
-}
-
-.icons {
-    width: 100%;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-}
-
-.description-div {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 40%;
-    align-items: start;
-    overflow: hidden;
-}
-
-.teams {
-    text-decoration: none;
-    color: inherit;
-}
-
-.teams:nth-child(even){
-    margin-right: 6vw;
-}
-
-.mentors{
-    width: 88vw;
-    height: 60vh;
-    background: var(--lightgray1);
-}
-
-.students {
-    width: 41vw;
-    height: 60vh;
-    background: var(--lightgray2);
-    float: left;
-}
-
-.sub-team-div {
-    margin-bottom: 6vw;
-    border-radius: 1vw;
-    border: 3px solid white;
-    transition: 0.3s;
-}
-
-.sub-team-div:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
-}
-
-.sub-team-div:hover img {
-    transform: translateY(-5vh);
-}
-
-.sub-team-div:hover .description {
-    opacity: 1;
-}
-
-img {
-    transition: 0.3s;
-}
-
-.subteam-name {
-    margin: 0;
-}
-
-.icon {
-    width: 10vw;
-    height: auto;
-}
 
 #subheader {
     position: relative;
@@ -133,3 +47,51 @@ img {
 .button1:hover {
     border-color: rgb(144, 140, 255);
 }
+
+#teams {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.team {
+    display:flex;
+    margin-bottom: 10vh;
+    margin-left: 25vw;
+    height: 55vh;
+    width: 50vw;
+    background-color: grey;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/team/HawkLogoWhite.jpeg");
+    background-position: 10vh;
+    background-repeat: no-repeat;
+    background-size: 190px; 
+}
+
+.textBox {
+    display: flex;
+    position:flex;
+    flex-direction:column;
+    flex-flow: row wrap;
+    flex-direction:column;
+    text-align: left;
+    margin-left: 30vw;
+    margin-bottom: 10vh;
+}
+
+.textTitle {
+    font-size: 25px;
+    color: var(--white);
+}
+
+.textDescription {
+    margin-right: 5vw;
+    font-size: 18px;
+    color: var(--white);
+}
+
+
