@@ -10,8 +10,6 @@
     padding-bottom:4vmax;
 }
 
-
-
 #subheader {
     position: relative;
     top: 15vh;
@@ -48,29 +46,90 @@
     border-color: rgb(144, 140, 255);
 }
 
-#teams {
+#teamRow {
     display: flex;
-    flex-direction: column;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
+    width: auto;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.team {
+#mentor {
     display:flex;
+    height: 400px;
+    width: 650px;
     margin-bottom: 10vh;
-    margin-left: 25vw;
-    height: 55vh;
-    width: 50vw;
-    background-color: grey;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(34,34,34,255);
     text-align: center;
     justify-content: center;
     align-items: center;
-    background-image: url("../assets/team/HawkLogoWhite.jpeg");
-    background-position: 10vh;
-    background-repeat: no-repeat;
-    background-size: 190px; 
 }
+
+#mentor:hover {
+    transform: scale(1.03);
+}
+
+.teamLeft {
+    display:flex;
+    height: 400px;
+    width: 45vw;
+    float: left;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    margin-left: 3vw;
+    background-color: rgba(34,34,34,255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamLeft:hover {
+    transform: scale(1.03);
+}
+
+.teamRight {
+    display:flex;
+    height: 400px;
+    width: 45vw;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(34,34,34,255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamRight:hover {
+    transform: scale(1.03);
+}
+
+.imageDivLeft {
+    position: relative;
+    right: -4vw;
+    height: 45vh;
+    width: 35vw;
+    margin-right: 1vw;
+    margin-bottom: -5vw;
+    background-image: url("../assets/team/HawkLogoWhite.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+.imageDivRight {
+    position: relative;
+    right: -4vw;
+    height: 45vh;
+    width: 60vw;
+    margin-right: 1vw;
+    margin-bottom: -5vw;
+    background-image: url("../assets/team/HawkLogoWhite.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+}
+
+
 
 .textBox {
     display: flex;
@@ -79,18 +138,20 @@
     flex-flow: row wrap;
     flex-direction:column;
     text-align: left;
-    margin-left: 30vw;
-    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
 }
 
 .textTitle {
+    margin-top: -2vh;
     font-size: 25px;
-    color: var(--white);
+    color: rgba(153,148,233,255);
 }
 
 .textDescription {
     margin-right: 5vw;
-    font-size: 18px;
+    margin-top: -1vh;
+    font-size: 20px;
     color: var(--white);
 }
 
