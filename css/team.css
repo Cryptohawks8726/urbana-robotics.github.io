@@ -1,23 +1,19 @@
 #TeamTitle {
-    position: relative;
-    top: 23vh;
+    position:absolute;
+    margin-bottom: 30vh;
     font-family: Bebas Neue;
     color: white;
     text-align: center;
-    font-size: calc(60px + 1vmax);
-    margin:0px;
-    padding-top:4vmax;
-    padding-bottom:4vmax;
+    font-size: 6vmax;
 }
 
 #subheader {
-    position: relative;
-    top: 15vh;
+    position:absolute;
     font-family: Bebas Neue;
     color: white;
     font-size: 1.7vmax;
     text-align: center;
-    margin-bottom: 20vh;
+    margin-bottom: 0;
 }
 
 #center {
@@ -27,14 +23,12 @@
 }
 
 .button1 {
-    align-self: center;
-    justify-self: center;
     font-size: 1.7vmax;
     color: white;
     width: 13.5vw;
     margin-right: 2vw;
     margin-left: 2vw;
-    margin-top: 5vh;
+    margin-top: 25vh;
     height: 8vh;
     border: 4px solid white;
     border-radius: 20px;

@@ -1,0 +1,126 @@
+#robot-group {
+    display:flex;
+    flex-wrap:wrap;
+    gap:3vw 0px;
+}
+
+.robot {
+    display:flex;
+    margin-left:10vw;
+    margin-right:10vw;
+    gap:0vw 2.5vw;
+}
+
+.left-image {
+    position: relative;
+    flex-grow:0;
+    height:38vw;
+    width: 65vw;
+    object-fit:cover;
+    border-radius: 10px;
+    left: 20vw;
+}
+
+.left-label {
+    position: relative;
+    text-align: center;
+    left: -67vw;
+    width: 15vw;
+    height: 30vh;
+}
+
+.right-image {
+    position: relative;
+    flex-grow:0;
+    height:38vw;
+    width:65vw;
+    object-fit:cover;
+    border-radius: 10px;
+}
+
+.right-label {
+    text-align: center;
+}
+
+.robot-heading {
+    display:flex;
+    gap:2vw;
+}
+
+.right-name {
+    position: relative;
+    font-family: Bebas Neue;
+    font-size:2.5vw;
+    color:black;
+    margin-bottom:0px;
+    right: auto;
+    top: 1vw;
+}
+
+.left-name {
+    position: relative;
+    font-family: Bebas Neue;
+    font-size:2.5vw;
+    color:black;
+    margin-bottom:0px;
+    right: -2.3vw;
+    top: 1vw;
+}
+
+.robot-description {
+    font-family: Dosis;
+    font-size:1.5vw;
+    color:black;
+}
+
+.robot-performance h1{
+    font-family: Dosis;
+    font-size:1.8vw;
+    color:black;
+}
+
+.robot-performance ul {
+    padding:0px;
+    margin:0px;
+}
+
+.robot-performance-item {
+    margin-bottom:1vw;
+    list-style:none;
+    font-size:1.2vw;
+    color:black;
+}
+
+.robot-performance-events {
+    color:black;
+}
+
+.robot-event td{
+    padding:0.8vw 2vw 0.8vw 0vw;
+    font-size: 1.0vw;
+}
+
+.reverse {
+    flex-direction:row-reverse;
+    text-align:right;
+}
+
+.button {
+    font-family: Bebas Neue;
+    font-size: 1.5vw;
+    color: white;
+    background-color: rgb(32,20,100);
+    height: 8vh;
+    width: 15vw;
+}
+
+.button:hover{
+    color: rgb(32,20,100);
+    background-color: white;
+}
+
+#homeTitle {
+    font-size: 7vmax;
+    color: white;
+}
+
