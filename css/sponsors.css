@@ -1,20 +1,121 @@
-.spnsr-group {
-    display: inline-block;
-    position: relative;
-    align-items:center;
-    
-    
+#spnsr-Container {
+    display:flex;
+    flex-direction:column;
+    width: auto;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.spnsr-text {
+#spnsrImage {
+    width:10vw;
+    height:25vh;
+    background-image: url("../assets/sponsors/Rapid_React_Logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain; 
+}
+
+#spnsr-Box {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    width: 45vw;
+    height: 35vh;
+    background-color: rgb(255,255,255);
+}
+
+#spnsr-BoxTi {
+    font-family: Bebas Neue;
+    font-size: 5vmax;
+    color:rgb(0, 0, 0);
+    margin-bottom: -8vh;
+}
+
+#spnsr-BoxTe {
+    font-family: Bebas Neue;
+    font-size: 2.5vmax;
     color:rgb(0, 0, 0);
 }
 
-.spnsr {
-    width: 20vw;
-    min-width: 250px;
-    transition: 0.2s;
+#spnsr-Display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    height: 11vh;
+    background-color: rgb(0,0,0);
+    margin-top: -5vh;
+}
 
+#spnsr-DisplayTi {
+    font-family: Bebas Neue;
+    font-size: 3vmax;
+    color:rgb(255,255,255);
+}
+
+#spnsrTGroup {
+    display: inline;
+    width: auto;
+    height: 30vh;
+    text-align: center;
+}
+
+#spnsrTitle {
+    font-family: Bebas Neue;
+    font-size: 6vmax;
+    color:rgb(0, 0, 0);
+    margin-bottom: -3vh;
+}
+
+#spnsr-text {
+    font-family: Bebas Neue;
+    font-size: 1.5vmax;
+    color:rgb(0, 0, 0);
+    margin-bottom: 10vh;
+}
+
+
+.spnsrTop-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.spnsrBottom-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.spnsrTop {
+    width: 1vw;
+    justify-content: center;
+    align-items: center;
+    min-width: 245px;
+    transition: 0.2s;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+} 
+
+.spnsrBottom {
+    width: 1vw;
+    justify-content: center;
+    align-items: center;
+    min-width: 245px;
+    transition: 0.2s;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
 } 
 
 .spnsr-link {
