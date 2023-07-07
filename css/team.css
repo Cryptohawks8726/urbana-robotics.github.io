@@ -22,7 +22,7 @@
     align-items: center;
 }
 
-.button1 {
+.button {
     font-size: 1.7vmax;
     color: white;
     width: 13.5vw;
@@ -36,7 +36,7 @@
     background-color: rgba(0,0,0,0);
 }
 
-.button1:hover {
+.button:hover {
     border-color: rgb(144, 140, 255);
 }
 
@@ -130,7 +130,6 @@
     position:flex;
     flex-direction:column;
     flex-flow: row wrap;
-    flex-direction:column;
     text-align: left;
     margin-left: 5vw;
     margin-bottom: 2vh;
