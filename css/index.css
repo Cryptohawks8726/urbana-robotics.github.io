@@ -31,7 +31,7 @@
     position:relative;
     left: -10vw;
     bottom: -14vh;
-    height: 60vh;
+    height: 30vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@
     position:relative;
     left: -10vw;
     bottom: -14vh;
-    height: 70vh;
+    height: 30vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -100,14 +100,13 @@
 
 #quote-container {
     display: flex;
-    flex-flow: row wrap;
     flex-direction:column;
     position: relative;
     text-align: center;
     justify-content: center;
     margin: auto;
-    width: 54vw;
-    height: 40vh;
+    width: 56vw;
+    height: 20vw;
     top: -4vh;
     background-color: rgba(0, 0, 0, 0.7);
 }

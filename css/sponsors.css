@@ -200,22 +200,17 @@
     margin-bottom: 0;
 }
 
-#center {
-    display: flex;
-    background:green;
-    width: 32vw;
-    height: 40vh;
-    justify-content: center;
-    align-items: center;
+.center {
+    width: 14vw;
+    margin-top: 25vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
 }
 
 .button {
     font-size: 1.7vmax;
     color: rgb(255, 255, 255);
     width: 13.5vw;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    padding-top: 32vh;
     height: 8vh;
     border: 4px solid white;
     border-radius: 20px;

@@ -8,7 +8,9 @@ footer {
 }
 
 #bottom {
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     max-height: 100vw;
 }
 
@@ -21,13 +23,10 @@ footer {
 }
 
 #copyright {
-    position: relative;
-    left: 5vw;
     font-size:1vw;
-    margin: 0;
-    padding:0.8vw;
-    display: inline-block;
-    
+    margin-left: 5vw;
+    margin-right: -5vw;
+    padding: 0.8vw;
 }
 
 #frc-logo {
@@ -44,10 +43,6 @@ footer {
 a {
     text-decoration: none;
     color: inherit;
-}
-
-#address:hover {
-    transform: scale(1.05);
 }
 
 #address-div {
