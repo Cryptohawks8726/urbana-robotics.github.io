@@ -75,8 +75,10 @@
 
 
 .newsletter-cover-image {
-    max-width: 40vw;
-    max-height: 70vh;
+    flex:2;
+    max-width:30vw;
+    max-height:25vw;
+    object-fit:cover;
     border-radius: 10px;
 }
 

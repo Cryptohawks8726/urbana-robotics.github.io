@@ -29,10 +29,29 @@ footer {
     padding: 0.8vw;
 }
 
-#frc-logo {
-    width:2.5vw;
-    padding-bottom:0.8vw;
+#contacts {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 2vw;
+    margin-top: 2vw;
+    font-size: 1.2vmax;
+    align-items: center;
+    justify-content: center;
+}
 
+#icons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 10vw;
+}
+
+.contact {
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
 }
 
 #address {
