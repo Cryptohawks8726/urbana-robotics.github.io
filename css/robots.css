@@ -1,7 +1,8 @@
 #robot-group {
     display:flex;
     flex-wrap:wrap;
-    gap:3vw 0px;
+    gap:20vw 0px;
+    margin-bottom:10vh;
 }
 
 .robot {
