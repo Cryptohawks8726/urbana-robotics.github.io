@@ -29,7 +29,7 @@ footer {
     padding: 0.8vw;
 }
 
-#contacts {
+#contacts1 {
     display: flex;
     flex-direction: column;
     width: auto;
@@ -48,7 +48,7 @@ footer {
     width: 10vw;
 }
 
-.contact {
+.contact1 {
     width: 25px;
     height: 25px;
     transition: 0.3s;
