@@ -24,21 +24,21 @@
 }
 
 .event-name {
-  font-family: Dosis;
+  font-family: Montserrat;
   font-size:30px;
   color:black;
   text-align:center;
 }
 
 .event-date {
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:20px;
     color:black;
     text-align:center;
 }
 
 .event-description {
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:20px;
     color:black;
     padding-left:10px;

@@ -27,6 +27,16 @@
     src:url("/assets/fonts/dosis.ttf");
 }
 
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto-Bold");
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url("assets/fonts/montserrat.ttf");
+}
+
 header {
     max-height: 15vh; /* Max height of Header (Header Itself)*/
 }

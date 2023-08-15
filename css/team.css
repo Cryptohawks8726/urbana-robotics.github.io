@@ -1,7 +1,7 @@
 #TeamTitle {
     position:absolute;
     margin-bottom: 30vh;
-    font-family: Bebas Neue;
+    font-family: Roboto;
     color: white;
     text-align: center;
     font-size: 6vmax;
@@ -9,7 +9,7 @@
 
 #subheader {
     position:absolute;
-    font-family: Bebas Neue;
+    font-family: Roboto;
     color: white;
     font-size: 1.7vmax;
     text-align: center;

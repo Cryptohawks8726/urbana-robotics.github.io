@@ -18,7 +18,6 @@
     object-fit:cover;
     border-radius: 10px;
     margin-bottom: 100px;
-}
 
 .jp-label {
     flex:1;
@@ -32,20 +31,20 @@
 }
 
 .jp-name {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size:2.5vw;
     color:black;
     margin-bottom:0px;
 }
 
 .jp-description {
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:1.2vw;
     color:black;
 }
 
 .jp-performance h1{
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:1.8vw;
     color:black;
 }

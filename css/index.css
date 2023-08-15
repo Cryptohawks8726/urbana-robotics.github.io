@@ -1,5 +1,7 @@
+
+
 #welcome {
-    font-family: Bebas Neue;
+    font-family: Roboto-Bold;
     align-content: baseline;
     line-break: auto;
     line-height: 80px;
@@ -10,7 +12,7 @@
 }
 
 #welcome2 {
-    font-family: Bebas Neue;
+    font-family: Roboto-Bold;
     align-content: baseline;
     line-break: auto;
     font-size:min(60px,10vmax);
@@ -64,13 +66,13 @@
 }
 
 #introduction-title {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size:5vmax;
     color:var(--black);
 }
 
 #introduction-text {
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:max(15px,1.5vmax);
     color:var(--black);
     margin-right:90px;
@@ -117,7 +119,7 @@
     padding-top: 20px;
     padding-left: 25px;
     padding-right: 25px;
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size: 18px;
     color: var(--white);
 }
@@ -130,13 +132,13 @@
 #quote-author {
     position: relative;
     bottom: -2.5vh;
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size: 20px;
     color: var(--white);
 }
 
 #quote-founder {
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size: 16px;
     color: rgb(219, 219, 219);
 }

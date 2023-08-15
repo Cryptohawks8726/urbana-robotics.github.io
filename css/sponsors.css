@@ -27,14 +27,14 @@
 }
 
 .spnsr-BoxTi {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size: 5vmax;
     color:rgb(0, 0, 0);
     margin-bottom: -8vh;
 }
 
 .spnsr-BoxTe {
-    font-family: Bebas Neue;
+    font-family: Montserrat;
     font-size: 2.5vmax;
     color:rgb(0, 0, 0);
 }
@@ -50,7 +50,7 @@
 }
 
 .spnsr-DisplayTi {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size: 3vmax;
     color:rgb(255,255,255);
 }
@@ -63,21 +63,21 @@
 }
 
 .spnsrTitle {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size: 6vmax;
     color:rgb(0, 0, 0);
     margin-bottom: -3vh;
 }
 
 .spnsr-text {
-    font-family: Bebas Neue;
+    font-family: Montserrat;
     font-size: 1.5vmax;
     color:rgb(0, 0, 0);
     margin-bottom: 10vh;
 }
 
 .spnsrHomeDes {
-    font-family: Bebas Neue;
+    font-family: Montserrat;
     font-size: 1.5vmax;
     color:rgb(0, 0, 0);
     padding-left: 30vw;
@@ -107,7 +107,7 @@
 .spnsr-applyButton {
     width: 17vw;
     height: 8vh;
-    font-family: Bebas Neue;
+    font-family: Montserrat;
     font-size: 1.7vmax;
     color: white;
     background-color: rgb(32,20,100);
@@ -185,7 +185,7 @@
 #homeTitle {
     position:absolute;
     margin-bottom: 27vh;
-    font-family: Bebas Neue;
+    font-family: Roboto;
     color: white;
     text-align: center;
     font-size: 6vmax;
@@ -193,7 +193,7 @@
 
 #subheader {
     position:absolute;
-    font-family: Bebas Neue;
+    font-family: Roboto;
     color: white;
     font-size: 1.7vmax;
     text-align: center;
