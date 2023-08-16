@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap');
 :root {
     --navy:#04003B;
     --white:#FFFFFF;
@@ -28,14 +29,10 @@
 }
 
 @font-face {
-    font-family: Roboto;
-    src: url("assets/fonts/Roboto-Bold");
+    font-family: Bantayog;
+    src:url("/assets/fonts/Bantayog-Regular.otf")
 }
 
-@font-face {
-    font-family: Montserrat;
-    src: url("assets/fonts/montserrat.ttf");
-}
 
 header {
     max-height: 15vh; /* Max height of Header (Header Itself)*/
@@ -55,7 +52,7 @@ main {
 }
 
 #title {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     color: white;
     text-align: center;
     font-size: calc(10px + 2vmax);
