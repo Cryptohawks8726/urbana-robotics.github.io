@@ -18,10 +18,10 @@
     object-fit:cover;
     border-radius: 10px;
     margin-bottom: 100px;
+}
 
 .jp-label {
     flex:1;
-    
 }
 
 .jp-heading {
