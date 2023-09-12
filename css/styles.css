@@ -74,7 +74,7 @@ main {
     flex-direction:column;
     background-image: url("../assets/global/background4.gif");
     min-height: 40vw;
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 

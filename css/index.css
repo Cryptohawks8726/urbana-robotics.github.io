@@ -1,7 +1,7 @@
 
 
 #welcome {
-    font-family: Roboto-Bold;
+    font-family: Roboto, Bold;
     align-content: baseline;
     line-break: auto;
     line-height: 80px;
@@ -12,7 +12,7 @@
 }
 
 #welcome2 {
-    font-family: Roboto-Bold;
+    font-family: Roboto, Bold;
     align-content: baseline;
     line-break: auto;
     font-size:min(60px,10vmax);
@@ -22,7 +22,7 @@
 
 #introduction {
     display:flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     padding-top:4vw;
     margin-left:10vw;
@@ -94,7 +94,7 @@
     position:relative;
     left: -10vw;
     bottom: -14vh;
-    height: 30vw;
+    /*height: 30vw;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -106,10 +106,9 @@
     position: relative;
     text-align: center;
     justify-content: center;
-    margin: auto;
+    margin-bottom: 4vh;
     width: 56vw;
-    height: 20vw;
-    top: -4vh;
+    /*height: 20vw;*/
     background-color: rgba(0, 0, 0, 0.7);
 }
 
