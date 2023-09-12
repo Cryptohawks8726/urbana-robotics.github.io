@@ -1,0 +1,78 @@
+#pbc-group {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20vw 0px;
+}
+
+.pbc {
+    display:flex;
+    margin-left:10vw;
+    margin-right:10vw;
+    gap:0vw 2.5vw;
+}
+
+.pbc-image {
+    flex-grow:0;
+    height:38vw;
+    width:38vw;
+    object-fit:cover;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.pbc-label {
+    flex:1;
+    
+}
+
+.pbc-heading {
+    display:flex;
+    gap:2vw;
+    
+}
+
+.pbc-name {
+    font-family: Roboto;
+    font-size:2.5vw;
+    color:black;
+    margin-bottom:0px;
+}
+
+.pbc-description {
+    font-family: Montserrat;
+    font-size:1.2vw;
+    color:black;
+}
+
+.pbc-performance h1{
+    font-family: Montserrat;
+    font-size:1.8vw;
+    color:black;
+}
+
+.pbc-performance ul {
+    padding:0px;
+    margin:0px;
+    
+}
+
+.pbc-performance-item {
+    margin-bottom:1vw;
+    list-style:none;
+    font-size:1.2vw;
+    color:black;
+}
+
+.pbc-performance-events {
+    color:black;
+}
+
+.pbc-event td{
+    padding:0.8vw 2vw 0.8vw 0vw;
+    font-size: 1.0vw;
+}
+
+.reverse {
+    flex-direction:row-reverse;
+    text-align:right;
+}

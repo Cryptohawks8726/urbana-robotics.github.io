@@ -13,54 +13,47 @@
 }
 
 .robot-image {
+    display: flex;
     flex-grow:0;
     height:38vw;
-    width:38vw;
+    width:65vw;
     object-fit:cover;
     border-radius: 10px;
 }
 
-.robot-link {
-    text-decoration:none;
-}
-
-.robot-link:hover {
-    background-color:var(--lightgray);
-}
-
 .robot-label {
-    flex:1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 15vw;
+    height: 30vh;
+    margin: auto;
 }
 
 .robot-heading {
     display:flex;
-    gap:2vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .robot-name {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size:2.5vw;
-    color:white;
+    color:black;
     margin-bottom:0px;
-}
-
-.robot-year {
-    font-family: Bebas Neue;
-    font-size:1.5vw;
-    color:white;
-    margin-top:0px;
+    top: 1vw;
 }
 
 .robot-description {
-    font-family: Dosis;
-    font-size:1.2vw;
-    color:white;
+    font-family: Montserrat;
+    font-size:1.5vw;
+    color:black;
 }
 
 .robot-performance h1{
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:1.8vw;
-    color:white;
+    color:black;
 }
 
 .robot-performance ul {
@@ -72,11 +65,11 @@
     margin-bottom:1vw;
     list-style:none;
     font-size:1.2vw;
-    color:white;
+    color:black;
 }
 
 .robot-performance-events {
-    color:white;
+    color:black;
 }
 
 .robot-event td{
@@ -89,50 +82,22 @@
     text-align:right;
 }
 
-.banner {
-    background: var(--bannerblue);
+.button {
+    font-family: Bebas Neue;
+    font-size: 1.5vw;
     color: white;
-    display: inline-block;
-    height: 170px;
-    width: 124px;
-    line-height: 1.2;
-    margin: 0 0 40px;
-    padding: 8px;
-    position: relative;
-    text-align: center;
-    vertical-align: top;
-    white-space: normal;
+    background-color: rgb(32,20,100);
+    height: 4vw;
+    width: 15vw;
 }
 
-.banner:after {
-    content: '';
-    position: absolute;
-    display: block;
-    border: 70px solid var(--bannerblue);
-    border-top-width: 5px;
-    border-bottom: 20px transparent solid;
-    top: 100%;
-    left: 0;
+.button:hover{
+    color: rgb(32,20,100);
+    background-color: white;
 }
 
-.banner img {
-    margin-bottom: 10px;
-    margin-top: 10px;
-    width: 75px;
-    max-height: 45px;
+#homeTitle {
+    font-size: 7vmax;
+    color: white;
 }
 
-.banner .award-name, .banner .award-name-long {
-    display: table;
-    width: 100%;
-    height: 35px;
-    font-weight: bolder;
-    margin: 0;
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-.banner .award-event {
-    font-size: 85%;
-    line-height: 130%;
-}

@@ -44,7 +44,7 @@
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: black;
 }
 
 .description-div:nth-child(odd) * {
@@ -68,9 +68,9 @@
 }
 
 .name {
-    font-family: Bebas Neue;
+    font-family: Roboto;
 }
 
 .position {
-    font-family: Dosis;
+    font-family: Montserrat;
 }

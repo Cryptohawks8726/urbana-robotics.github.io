@@ -1,87 +1,149 @@
-#sub-teams {
-    display: flex;
-    justify-content:center;
-    flex-wrap:wrap;
+#TeamTitle {
+    position:absolute;
+    margin-bottom: 30vh;
+    font-family: Roboto;
     color: white;
-}
-
-.description {
     text-align: center;
-    opacity: 0;
-    font-family: Dosis;
-    font-size: 100%;
-    transition: 0.3s;
+    font-size: 6vmax;
 }
 
-.icons {
-    width: 100%;
-    height: 60%;
+#subheader {
+    position:absolute;
+    font-family: Roboto;
+    color: white;
+    font-size: 1.7vmax;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.center {
+    width: 14vw;
+    margin-top: 25vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.button {
+    font-size: 1.7vmax;
+    color: white;
+    width: 13.5vw;
+    height: 8vh;
+    border: 4px solid white;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgba(0,0,0,0);
+}
+
+.button:hover {
+    border-color: rgb(144, 140, 255);
+}
+
+#teamRow {
     display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-}
-
-.description-div {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 40%;
-    align-items: start;
+    width: auto;
+    height: 100vh;
     overflow: hidden;
 }
 
-.teams {
-    text-decoration: none;
-    color: inherit;
+#mentor {
+    display:flex;
+    height: 400px;
+    width: 650px;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(34,34,34,255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.teams:nth-child(even){
-    margin-right: 6vw;
+#mentor:hover {
+    transform: scale(1.03);
 }
 
-.mentors{
-    width: 88vw;
-    height: 60vh;
-    background: var(--lightgray1);
-}
-
-.students {
-    width: 41vw;
-    height: 60vh;
-    background: var(--lightgray2);
+.teamLeft {
+    display:flex;
+    height: 400px;
+    width: 45vw;
     float: left;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    margin-left: 3vw;
+    background-color: rgba(34,34,34,255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.sub-team-div {
-    margin-bottom: 6vw;
-    border-radius: 1vw;
-    border: 3px solid white;
-    transition: 0.3s;
+.teamLeft:hover {
+    transform: scale(1.03);
 }
 
-.sub-team-div:hover {
-    transform: scale(1.1);
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+.teamRight {
+    display:flex;
+    height: 400px;
+    width: 45vw;
+    margin-bottom: 10vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(34,34,34,255);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.sub-team-div:hover img {
-    transform: translateY(-5vh);
+.teamRight:hover {
+    transform: scale(1.03);
 }
 
-.sub-team-div:hover .description {
-    opacity: 1;
+.imageDivLeft {
+    position: relative;
+    right: -4vw;
+    height: 45vh;
+    width: 35vw;
+    margin-right: 1vw;
+    margin-bottom: -5vw;
+    background-image: url("../assets/team/HawkLogoWhite.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
 
-img {
-    transition: 0.3s;
+.imageDivRight {
+    position: relative;
+    right: -4vw;
+    height: 45vh;
+    width: 60vw;
+    margin-right: 1vw;
+    margin-bottom: -5vw;
+    background-image: url("../assets/team/HawkLogoWhite.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain; 
 }
 
-.subteam-name {
-    margin: 0;
+
+
+.textBox {
+    display: flex;
+    position:flex;
+    flex-direction:column;
+    flex-flow: row wrap;
+    text-align: left;
+    margin-left: 5vw;
+    margin-bottom: 2vh;
 }
 
-.icon {
-    width: 10vw;
-    height: auto;
+.textTitle {
+    margin-top: -2vh;
+    font-size: 25px;
+    color: rgba(153,148,233,255);
 }
+
+.textDescription {
+    margin-right: 5vw;
+    margin-top: -1vh;
+    font-size: 20px;
+    color: var(--white);
+}
+
+

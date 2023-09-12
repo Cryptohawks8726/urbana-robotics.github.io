@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap');
 :root {
     --navy:#04003B;
     --white:#FFFFFF;
     --navyhover:#1f196e;
     --navyactive:#2d559c;
-    --mainbackground:#282828;
+    --mainbackground:#ffffff25;
     --lightgray: #505050;
     --lightgray1: #7c878c;
     --lightgray2: #9f9f9f;
@@ -27,6 +28,12 @@
     src:url("/assets/fonts/dosis.ttf");
 }
 
+@font-face {
+    font-family: Bantayog;
+    src:url("/assets/fonts/Bantayog-Regular.otf")
+}
+
+
 header {
     max-height: 15vh; /* Max height of Header (Header Itself)*/
 }
@@ -45,7 +52,7 @@ main {
 }
 
 #title {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     color: white;
     text-align: center;
     font-size: calc(10px + 2vmax);
@@ -64,6 +71,7 @@ main {
     display:flex;
     justify-content:center;
     align-items:center;
+    flex-direction:column;
     background-image: url("../assets/global/background4.gif");
     min-height: 40vw;
     background-attachment: fixed;

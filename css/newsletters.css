@@ -1,3 +1,25 @@
+#newsletter-top {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+    height: 40vh;
+    width: 40vw;
+}
+
+#newsletter-title {
+    font-size: 6vmax;
+    font-family: Roboto;
+    color:white;
+}
+
+#newsletter-des {
+    font-size: 2vmax;
+    font-family: Roboto;
+    color:white;
+    margin-top: -5vh;
+}
+
 #newsletter-group {
     display:flex;
     flex-direction:column;
@@ -20,7 +42,7 @@
     padding:2vw;
     border-radius: 10px;
     transition: 0.3s;
-    height: 50vh;
+    height: 60vh;
 }
 
 
@@ -30,7 +52,7 @@
 }
 
 .newsletter-title {
-    font-family: Bebas Neue;
+    font-family: Roboto;
     font-size:3vw;
     color:var(--white);
     margin:0px;
@@ -38,7 +60,7 @@
 }
 
 .newsletter-date {
-    font-family: Dosis;
+    font-family: Montserrat;
     font-size:1vw;
     color:var(--white);
     margin:0px;

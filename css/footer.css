@@ -7,15 +7,51 @@ footer {
     border-top:3px white solid;
 }
 
-#copyright {
-    font-size:1vw;
-    margin:0;
-    padding:0.8vw;
+#bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 100vw;
 }
 
-#frc-logo {
-    width:2.5vw;
-    padding-bottom:0.8vw;
+#names {
+    position: relative;
+    left: 37vw;
+    font-size: .7vw;
+    text-align: right;
+    display: inline-block;
+}
+
+#copyright {
+    font-size:1vw;
+    margin-left: 5vw;
+    margin-right: -5vw;
+    padding: 0.8vw;
+}
+
+#contacts1 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 2vw;
+    margin-top: 2vw;
+    font-size: 1.2vmax;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 10vw;
+}
+
+.contact1 {
+    width: 25px;
+    height: 25px;
+    transition: 0.3s;
 }
 
 #address {
@@ -26,10 +62,6 @@ footer {
 a {
     text-decoration: none;
     color: inherit;
-}
-
-#address:hover {
-    transform: scale(1.05);
 }
 
 #address-div {

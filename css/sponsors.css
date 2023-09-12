@@ -1,15 +1,159 @@
-.spnsr-group {
+.spnsr-Container {
     display:flex;
-    align-items:center;
-    justify-content:space-evenly;
-    flex-wrap:wrap;
-    gap: 6vw 10vw;
+    flex-direction:column;
+    width: auto;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
 }
 
-.spnsr {
-    width: 20vw;
-    min-width: 250px;
+.spnsrImage {
+    width:9vw;
+    height:20vh;
+    flex-grow:0;
+    object-fit:contain;
+    border-radius: 10px;
+}
+
+.spnsr-Box {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction:column;
+    text-align: center;
+    justify-content: center;
+    width: 40vw;
+    height: 35vh;
+    background-color: rgb(255,255,255);
+}
+
+.spnsr-BoxTi {
+    font-family: Roboto;
+    font-size: 5vmax;
+    color:rgb(0, 0, 0);
+    margin-bottom: -8vh;
+}
+
+.spnsr-BoxTe {
+    font-family: Montserrat;
+    font-size: 2.5vmax;
+    color:rgb(0, 0, 0);
+}
+
+.spnsr-Display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22vw;
+    height: 11vh;
+    background-color: rgb(0,0,0);
+    margin-top: -5vh;
+}
+
+.spnsr-DisplayTi {
+    font-family: Roboto;
+    font-size: 3vmax;
+    color:rgb(255,255,255);
+}
+
+.spnsrTGroup {
+    display: inline;
+    width: auto;
+    height: 30vh;
+    text-align: center;
+}
+
+.spnsrTitle {
+    font-family: Roboto;
+    font-size: 6vmax;
+    color:rgb(0, 0, 0);
+    margin-bottom: -3vh;
+}
+
+.spnsr-text {
+    font-family: Montserrat;
+    font-size: 1.5vmax;
+    color:rgb(0, 0, 0);
+    margin-bottom: 10vh;
+}
+
+.spnsrHomeDes {
+    font-family: Montserrat;
+    font-size: 1.5vmax;
+    color:rgb(0, 0, 0);
+    padding-left: 30vw;
+    padding-right: 30vw;
+}
+
+.spnsr-apply {
+    display: flex;
+    flex-direction:column;
+    width: 10vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+    margin-left: 5.5vw;
+    margin-right: 5.5vw;
+    margin-bottom: 10vh;
+}
+
+.spnsr-applyImg {
+    width: 15vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    margin-bottom: 3vh;
+}
+
+.spnsr-applyButton {
+    width: 17vw;
+    height: 8vh;
+    font-family: Montserrat;
+    font-size: 1.7vmax;
+    color: white;
+    background-color: rgb(32,20,100);
+}
+
+.spnsr-applyButton:hover{
+    color: rgb(32,20,100);
+    background-color: white;
+}
+
+.spnsrTop-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.spnsrBottom-group {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.spnsrTop {
+    width: 1vw;
+    justify-content: center;
+    align-items: center;
+    min-width: 245px;
     transition: 0.2s;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
+} 
+
+.spnsrBottom {
+    width: 1vw;
+    justify-content: center;
+    align-items: center;
+    min-width: 245px;
+    transition: 0.2s;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 10vh;
 } 
 
 .spnsr-link {
@@ -36,3 +180,45 @@
 .spnsr:hover {
     transform: scale(1.1);
 }
+
+
+#homeTitle {
+    position:absolute;
+    margin-bottom: 27vh;
+    font-family: Roboto;
+    color: white;
+    text-align: center;
+    font-size: 6vmax;
+}
+
+#subheader {
+    position:absolute;
+    font-family: Roboto;
+    color: white;
+    font-size: 1.7vmax;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.center {
+    width: 14vw;
+    margin-top: 25vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+
+.button {
+    font-size: 1.7vmax;
+    color: rgb(255, 255, 255);
+    width: 13.5vw;
+    height: 8vh;
+    border: 4px solid white;
+    border-radius: 20px;
+    border-color: white;
+    background-color: rgba(0,0,0,0);
+}
+
+.button:hover {
+    border-color: rgb(144, 140, 255);
+}
+

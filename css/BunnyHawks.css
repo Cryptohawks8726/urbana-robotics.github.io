@@ -1,0 +1,82 @@
+#bh-group {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20vw 0px;
+}
+
+.bh {
+    display:flex;
+    margin-left:10vw;
+    margin-right:10vw;
+    gap:0vw 2.5vw;
+}
+
+.bh-image {
+    flex-grow:0;
+    height:38vw;
+    width:38vw;
+    object-fit:cover;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.bh-label {
+    position: relative;
+    flex:1;
+    text-align: left;
+    top: auto;
+    right: -5vw;
+}
+
+.bh-heading {
+    display:flex;
+    gap:2vw;
+}
+
+.bh-name {
+    position: relative;
+    font-family: Roboto;
+    font-size:2.5vw;
+    color:black;
+    margin-bottom:0px;
+    right: auto;
+    top: 1vw;
+}
+
+.bh-description {
+    font-family: Montserrat;
+    font-size:1.5vw;
+    color:black;
+}
+
+.bh-performance h1{
+    font-family: Montserrat;
+    font-size:1.8vw;
+    color:black;
+}
+
+.bh-performance ul {
+    padding:0px;
+    margin:0px;
+}
+
+.bh-performance-item {
+    margin-bottom:1vw;
+    list-style:none;
+    font-size:1.2vw;
+    color:black;
+}
+
+.bh-performance-events {
+    color:black;
+}
+
+.bh-event td{
+    padding:0.8vw 2vw 0.8vw 0vw;
+    font-size: 1.0vw;
+}
+
+.reverse {
+    flex-direction:row-reverse;
+    text-align:right;
+}

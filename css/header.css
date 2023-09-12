@@ -82,6 +82,7 @@ header {
     padding:15px;
     transition: 0.2s;
     border-radius: 2px;
+    width: auto;
 }
 
 .main-link:hover {
@@ -100,7 +101,7 @@ header {
   display: none;
   position: absolute;
   background-color: var(--navy);
-  width: min-content;
+  width: max-content;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }

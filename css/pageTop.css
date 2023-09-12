@@ -1,0 +1,9 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../assets/global/TopImage.jpeg");
+    width:100%;
+    height:50vw;
+    margin-bottom: 4vw;
+}
