@@ -12,6 +12,7 @@ footer {
     align-items: center;
     justify-content: center;
     max-height: 100vw;
+    margin-left: 5.5vw;
 }
 
 #names {
@@ -25,7 +26,6 @@ footer {
 #copyright {
     font-size:1vw;
     padding: 0.8vw;
-}
 
 #contacts1 {
     display: flex;
